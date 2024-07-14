@@ -1,0 +1,177 @@
+.header{
+    height: 70px;
+    width:1300px;
+    /* background-color:burlywood; */
+    /* background-color: aqua; */
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+    position: fixed;
+    padding-bottom: 30px;
+    margin-bottom: 400px;
+    z-index: 1;
+    background-color: white;
+    margin-top: -5px;
+    /* justify-content:space-between; */
+}
+.options{
+ margin-left: 300px;
+ margin-right: 100px;
+ width: 900px;
+ display: flex;
+ /* background-color: bisque; */
+ justify-content:space-between;
+}
+#menu{
+    margin-top: 0px;
+    height: 30px;
+    width: 30px;
+}
+
+.header-line {
+    width: 1300px;
+    border: 1px solid black; /* You can adjust the color and thickness here */
+    position: absolute;
+    bottom: 0;
+}
+#logo{
+    margin-top: 2px;
+    height: 65px;
+    width: 140px;
+}
+.landing{
+    margin-top: 50px;
+    height: 600px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+/* @media(cursor:hover){
+    #signup{
+        background-color: black;
+    }
+} */
+/* #signup{
+    transition: all 2s ease-in ;
+}
+#signup:hover{
+    background-color: black;
+    font-size: 10px;
+} */
+#landimg{
+    height: 300px;
+    width: 600px;
+}
+#invest{
+    margin-bottom: -30px;
+    font-family: serif;
+    
+}
+button{
+    background-color: #387ed1;
+    color:white;
+    border: 0cap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.1s ease-in;
+    
+}
+button:hover{
+    background-color: black;
+    /* font-size: 25px; */
+}
+a{
+    text-decoration:none
+}
+.main{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    height: 600px;
+    width: 1500px;
+    margin-left: 90px;
+}
+img{
+    margin-top: 40px;
+    height: 300px;
+    width: 350px;
+    
+}
+.sub{
+    margin-left: 120px;
+    margin-top: -10px;
+    width: 600px;
+    
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    
+    
+}
+
+#div1{
+    /* background-color: red; */
+    height: 350px;
+    width: 350px;
+}
+#div2{
+    /* background-color: brown; */
+    height: 50px;
+    width: 500px;
+}
+#div3{
+    /* background-color: burlywood; */
+    margin-top: 10px;
+    height: 50px;
+    width: 500px;
+    
+}
+#div4{
+    margin-left: 0px;
+    align-self:baseline;
+    margin-left: 100px;
+    /* background-color: aliceblue; */
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+}
+
+.bottomright{
+    margin-left: 200px;
+    
+}
+
+.lower{
+    /* background-color: aquamarine; */
+    margin-top: 120px;
+    display: flex;
+    width: 1300px;
+    justify-content:flex-end ;
+    flex-direction:column;
+    align-items: center;
+   
+}
+.footer-line{
+    width: 1300px;
+    border: 1px solid black; /* You can adjust the color and thickness here */
+    /* position: absolute; */
+    bottom: 0;
+}
+.footer{
+    height: 200px;
+    width: 1300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
