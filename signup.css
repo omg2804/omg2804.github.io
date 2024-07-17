@@ -1,6 +1,6 @@
 .header{
     height: 70px;
-    width:1200px;
+    width:100%;
     /* background-color:burlywood; */
     /* background-color: aqua; */
     display: flex;
@@ -40,7 +40,7 @@
 }
 .heading{
     display: flex;
-    width: 1200px;
+    width: 100%;
     flex-direction: row;
     justify-content:center;
     align-content:end;
@@ -89,7 +89,7 @@ button{
     /* bottom: 0; */
 
 .footer-line{
-    width: 1300px;
+    width: 100%;
     border: 1px solid black; /* You can adjust the color and thickness here */
     /* position: absolute; */
     bottom: 0;
@@ -97,7 +97,7 @@ button{
 .footer{
     margin-top: 150px;
     height: 200px;
-    width: 1300px;
+    width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
