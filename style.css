@@ -205,21 +205,13 @@ img{
     border: 1px solid black; 
     bottom: 0;
 }
-/* .footer{
-    height: 200px;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
+
 .pricing{
     margin-top: 100px;
     display: flex;
     
     justify-content: space-evenly;
-} */
+}  
 .pricingright{
     width: 400px;
     height: 155px;
