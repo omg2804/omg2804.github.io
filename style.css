@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Inter", serif;
 }
 body {
     overflow-x: hidden;
@@ -28,6 +29,10 @@ body {
  display: flex;
  /* background-color: bisque; */
  justify-content:space-between;
+ transition: all 0.1s ease-in;
+}
+.options a:hover{
+    color: blue;
 }
 #menu{
     margin-top: 0px;
@@ -37,7 +42,7 @@ body {
 
 .header-line {
     width: 100%;
-    border: 1px solid black; /* You can adjust the color and thickness here */
+    border: 1px solid rgb(232, 223, 223); /* You can adjust the color and thickness here */
     position: absolute;
     bottom: 0;
 }
@@ -74,22 +79,29 @@ body {
 }
 #invest{
     margin-bottom: -20px;
-    font-family: serif;
-    
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: #424242;
+    webkit-font-smoothing: antialiased;
 }
+
 button{
     background-color: #387ed1;
     color:white;
+    font-size: 16px;
     border: 0cap;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     transition: all 0.1s ease-in;
+    border-radius: 3px;
     
 }
 button:hover{
     background-color: black;
+    
     /* font-size: 25px; */
 }
 a{
@@ -118,33 +130,54 @@ img{
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
-    align-items:end;
+    align-items:start;
     
     
 }
 
-#div1{
+.div1{
     /* background-color: red; */
     height: 350px;
     width: 350px;
 }
-#div2{
+.div2{
     /* background-color: brown; */
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", serif;
     height: 50px;
     width: 500px;
 }
-#div3{
+.div3{
     /* background-color: burlywood; */
     margin-top: 10px;
     height: 50px;
     width: 500px;
+    display: flex;
     
 }
-#div4{
+.div4{
+    display: flex;
     margin-left: 0px;
-    align-self:baseline;
-    margin-left: 100px;
+    width: 500px;
+    height: 120px;
+    /* align-self:baseline; */
+    justify-content: space-between;
+    margin-left: 0px;
+    flex-direction: row;
+    margin-top: 30px;
     /* background-color: aliceblue; */
+}
+.div4left{
+    width: 215px;
+    height: 55px;
+   
+}
+.div4right{
+    width: 215px;
+    height: 55px;
+    
 }
 .bottom{
     display: flex;
@@ -169,16 +202,90 @@ img{
 }
 .footer-line{
     width: 100%;
-    border: 1px solid black; /* You can adjust the color and thickness here */
-    /* position: absolute; */
+    border: 1px solid black; 
     bottom: 0;
 }
-.footer{
+/* .footer{
     height: 200px;
     width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: aquamarine; */
+    
+}
+.pricing{
+    margin-top: 100px;
+    display: flex;
+    
+    justify-content: space-evenly;
+} */
+.pricingright{
+    width: 400px;
+    height: 155px;
+    background-image:url(pricing.png) ;
+    background-size: contain;
+    
+}
+.varsity{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.varsityleft{
+    width: 380px;
+    height: 278px;
+    background-image: url(varsity.png);
+    background-size: contain;
+}
+footer{
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 335px;
+    padding-top: 30px;
+}
+.container{
+    width: 100%;
+    height: 792px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 335px;
+}
+.column1{
+    width: 212px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+}
+.footerlogo{
+  width: 210px;
+  height: 50px;
+  background-image: url(zerodhafooter.png);
+  background-size: contain;
+}
+.copyrighttextgrey{
+    color: #666;
+    font-size: 13px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 0px;
+}
+li{
+    list-style-type: none;
+}
+.liststyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.navhead{
+    font-size: 1.125rem;
+    margin-bottom: 15px;
 }
