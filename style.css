@@ -240,11 +240,15 @@ footer{
 .container{
     width: 100%;
     height: 792px;
+    display: flex;
+    flex-direction: column;
 }
 .row{
     display: flex;
     width: 100%;
     height: 335px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 .column1{
     width: 212px;
@@ -280,4 +284,43 @@ li{
 .navhead{
     font-size: 1.125rem;
     margin-bottom: 15px;
+}
+.liststyle1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+}
+.column2{
+    width: 228px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.liststyle3{
+    width: 212px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footergraveyard{
+    display: flex;
+    height: 48px;
+    color: #9b9b9b;
+    
+}
+.grave{
+    display: flex;
+    font-size: 12px;
+    color: #9b9b9b;
+    justify-content: space-between;
 }
