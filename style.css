@@ -55,7 +55,7 @@ body {
     margin-left: 49px;
 }
 .landing{
-    margin-top: 0px;
+    margin-top: 10px;
     height: 600px;
     width: 100%;
     display: flex;
@@ -76,30 +76,45 @@ body {
     background-color: black;
     font-size: 10px;
 } */
+ .landi{
+    height: 264px;
+    width: 626px;
+    margin-bottom: 80px;
+ }
 #landimg{
     height: 267px;
     width: 625px;
 }
-#invest{
+.invest{
     margin-bottom: -20px;
     font-family: "Inter", serif;
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 50px;
+    font-weight: 700;
     color: #424242;
     
+}
+.landr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button{
     background-color: #387ed1;
     color:white;
-    font-size: 16px;
+    font-size: 19.2px;
+    font-weight: 550;
     border: 0cap;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
     transition: all 0.1s ease-in;
     border-radius: 3px;
+    
+}
+.button1{
+    margin-top: 30px;
     
 }
 button:hover{
@@ -140,8 +155,10 @@ img{
 
 .div1{
     /* background-color: red; */
-    height: 280px;
-    width: 350px;
+    height: 270px;
+    width: 410px;
+    background-image: url(large\ stock.svg);
+    background-size: cover;
 }
 .div2{
     /* background-color: brown; */
