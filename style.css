@@ -23,13 +23,15 @@ body {
     /* justify-content:space-between; */
 }
 .options{
- margin-left: 300px;
+ margin-left: 445px;
  margin-right: 100px;
  width: 900px;
  display: flex;
+ height: 25px;
  /* background-color: bisque; */
  justify-content:space-between;
  transition: all 0.1s ease-in;
+ margin-top: 22px;
 }
 .options a:hover{
     color: blue;
@@ -47,12 +49,13 @@ body {
     bottom: 0;
 }
 #logo{
-    margin-top: 2px;
-    height: 65px;
-    width: 140px;
+    margin-top: 4px;
+    height: 45px;
+    width: 170px;
+    margin-left: 49px;
 }
 .landing{
-    margin-top: 50px;
+    margin-top: 0px;
     height: 600px;
     width: 100%;
     display: flex;
