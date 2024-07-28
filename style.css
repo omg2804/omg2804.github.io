@@ -27,7 +27,8 @@ body {
  margin-right: 100px;
  width: 900px;
  display: flex;
- height: 25px;
+ height: 30px;
+ line-height: 1.7;
  color: #666666;
  /* background-color: bisque; */
  justify-content:space-between;
