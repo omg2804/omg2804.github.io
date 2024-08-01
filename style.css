@@ -23,17 +23,28 @@ body {
     /* justify-content:space-between; */
 }
 .options{
- margin-left: 445px;
+ margin-left: 385px;
  margin-right: 100px;
  width: 900px;
  display: flex;
  height: 30px;
  line-height: 1.7;
- color: #666666;
+ color: #424242;
  /* background-color: bisque; */
  justify-content:space-between;
  transition: all 0.1s ease-in;
- margin-top: 22px;
+ margin-top: 6px;
+ 
+}
+.navbar{
+    display: flex;
+    width: 600px;
+    height: 15px;
+    justify-content: space-evenly;
+    color: #424242;
+    font-size: 14.4px;
+    margin-bottom: 30px;
+
 }
 .options a:hover{
     color: blue;
@@ -84,8 +95,8 @@ body {
     margin-bottom: 80px;
  }
 #landimg{
-    height: 267px;
-    width: 625px;
+    height: 45vh;
+    width: 50vw;
 }
 .invest{
     margin-bottom: -20px;
@@ -94,6 +105,12 @@ body {
     font-weight: 700;
     color: #424242;
     
+}
+.online{
+    display: flex;
+    width: 800px;
+    margin-left: 15.5vw;
+    transform: scaleX(1.2);
 }
 .landr{
     display: flex;
@@ -237,7 +254,7 @@ img{
 }
 
 .bottomright{
-    margin-left: 200px;
+    margin-left: 60px;
     
 }
 
