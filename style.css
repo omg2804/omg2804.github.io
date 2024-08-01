@@ -222,6 +222,7 @@ img{
     height: 120px;
     flex-direction: column;
     justify-content: space-evenly;
+    line-height: 1.7;
 }
 .div4right{
     width: 255px;
@@ -238,6 +239,7 @@ img{
     height: 120px;
     flex-direction: column;
     justify-content: space-evenly;
+    line-height: 1.7;
 }
 /* .div5{
     width: 540px;
