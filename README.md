@@ -15,11 +15,11 @@ This project is a front-end clone of the Zerodha homepage, built using HTML and 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/omg2804/omg2804.github.io.git
+   git clone https://github.com/omg2804/zerodha-clone-html-css.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd omg2804.github.io
+   cd zerodha-clone-html-css
    ```
 3. Open the `index.html` file in a browser.
 
@@ -30,5 +30,4 @@ This project is a front-end clone of the Zerodha homepage, built using HTML and 
 
 ## Contributing
 Feel free to fork this repository and submit pull requests with improvements.
-
 
